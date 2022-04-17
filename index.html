@@ -1,0 +1,126 @@
+<html lang="en">
+<head> <!--Se comineza siempre con el head que es el contenido que no se ve y el nombre de la pagina-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!--Aqui se coloca el nombre que llevara la pagina-->
+    <link rel="preload" href="/estilo/normalize.css"> <!--Se baja un archivo con el nombre normalize para ajustar los valores de la pagina-->
+    <link rel="stylesheet" href="/estilo/normalize.css"> <!--Normalize se carga y se inicia asi como se enlaza su link-->
+    <link rel="preload" href="/estilo/style.css" as="style"><!--Es necesario colocar el link de referencia del archivo CSS para que se cargue-->
+    <link href="/estilo/style.css" rel="stylesheet">
+</head>
+<body class="fondo">
+
+    <style>
+         
+         .cabecera{
+             display: flex;
+         }
+         .logo{
+             display: flex;
+             width: 50rem;
+             justify-content: end;
+         }
+         
+         .titulo{
+             display: flex;
+             width: 120rem;
+             font-size: 1.5rem;
+             color: gray;
+             align-items: center;
+             justify-content: end;
+             margin-right: 20rem;
+             margin-top: 2rem;
+         }
+
+         .equipos{
+             font-size: 2rem;
+             display: flex;
+             width: 150rem;
+             justify-content: flex-end;
+             gap: 2rem;
+             margin-top: 10rem;
+
+             
+             
+                          
+         }
+
+         .equipos a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            background-color: rgb(54, 246, 54);
+            height: 20rem;
+            width: 20rem;
+            display: flex;
+            justify-content: center;
+           
+        }
+
+        .barrera{
+            display: flex;
+            height: 5rem;
+            
+            margin: 2rem;
+            width: 10rem;
+            
+        }
+
+        .fondo{
+            background-color: gainsboro;
+        }
+
+        .linea{
+            background-color: rgb(122, 122, 189);
+            height: .2rem;
+            margin-top: 0;
+
+        }
+
+        .entrada{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            
+        }
+
+         
+        
+    </style>
+    <header class="cabecera">
+        <div class="logo">
+            <img src="/estilo/logo easy.png" alt="imagen-easy">
+        </div>
+        <div class="titulo">
+            <h3>Estacionamiento Plaza del Valle</h3>
+        </div>
+        
+    </header>
+
+    <div class="linea">
+
+    </div>    
+
+    <nav class="equipos">
+        <a class="entrada" href="http:\\192.168.1.101/" target="blank">Entrada Sears
+            <img class="barrera" src="/img/Diseño sin título.png" alt="barrera">
+        </a>
+        
+        <a class="entrada" href="http:\\192.168.1.101/" target="blank">Entrada Principal
+            <img class="barrera" src="/img/Diseño sin título.png" alt="barrera">
+        </a>
+        <a class="entrada" href="http:\\192.168.1.101/" target="blank">Entrada Cinepolis
+            <img class="barrera" src="/img/Diseño sin título.png" alt="barrera">
+        </a>
+        <a class="entrada" href="http:\\192.168.1.101/" target="blank">Salida Office
+            <img class="barrera" src="/img/Diseño sin título.png" alt="barrera">
+        </a>
+    </nav>
+
+    
+    
+</body>
+</html>

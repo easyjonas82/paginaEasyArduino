@@ -1,0 +1,18 @@
+:root{   /*Asignacion de variables para poder elegir principalmente colores en las clases  color: var(--primario);*/
+
+    --blanco: #ffffff;
+    --oscuro: #f6f7f321;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisclaro: #DFE9F3;
+
+}
+
+html {                      /*Se introducira al inicio del CSS para darle formato a los REM*/
+    font-size: 62.5%;
+    box-sizing: border-box; /*Hace que los pixeles no se modifiquen al aplicar algun paddin o margen*/
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
