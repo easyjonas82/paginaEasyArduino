@@ -17,18 +17,35 @@ html {                      /*Se introducira al inicio del CSS para darle format
     box-sizing: inherit;
 }
 
-.cabecera{
+.cabecera {
     /*display: flex;*/
     display: grid;
     /*grid-template-columns: repeat(3, 1fr);*/
     grid-template-columns: 20% 40% 40%;
+  
+    height: 15rem;
+    
 }
+
+.main{
+    display: grid;
+    grid-template-columns: 20% 40% 40% ;
+}
+
+.equipos{
+    grid-column: 2 / 3;
+    
+}
+
+
 .logo{
     /*display: flex;*/
     /*width: 50rem;
     justify-content: end;*/
     /*background-color: var(--grisclaro);*/
     padding: 2rem;
+    background-color: #75757527;
+    
 }
 
 .titulo{
@@ -43,14 +60,16 @@ html {                      /*Se introducira al inicio del CSS para darle format
     /*background-color: var(--secundario);*/
     padding-top: 6rem;
     font-size: 1.5rem;
+    background-color: #75757527;
 }
 
 .cabecera_equipo{
     
     padding-left: 8rem;
-    padding-top: 10rem;
+    padding-top: 5rem;
     color: rgba(128, 128, 128, 0.792);
     font-weight: bold;
+    height: 10rem;
     
 
 }
@@ -59,7 +78,7 @@ html {                      /*Se introducira al inicio del CSS para darle format
     background-color: rgba(247, 29, 29, 0.861);
     font-size: 2rem;
     width: 130rem;
-    margin-left: 30rem;
+    
     margin-top: 5rem;
     color: #ffffff;
     font-weight: bold;
@@ -68,32 +87,34 @@ html {                      /*Se introducira al inicio del CSS para darle format
 
 .equipos{
     font-size: 2rem;
-    display: flex;
+    /*display: flex;
     width: 150rem;
     justify-content: flex-end;
     gap: 2rem;
-    margin-top: 10rem;
-
-    
-    
+    margin-top: 10rem;*/
+       
                  
 }
 
-.equipos a {
+.equipos  a {
    text-decoration: none;
    color: blue;
    font-weight: bold;
-   background-color: rgb(54, 246, 54);
+   background-color: rgb(19, 222, 138);
    height: 20rem;
-   width: 20rem;
+   width: 60rem;
    display: flex;
    justify-content: center;
+   margin-top: 5rem;
   
 }
 
 .equipos a:hover{
-    background-color: yellow;
+    background-color: rgb(156, 255, 180);
     color: black;
+    border: rgb(14, 97, 205);
+    border-radius: 2rem;
+    
 }
 
 .barrera{
@@ -112,9 +133,8 @@ html {                      /*Se introducira al inicio del CSS para darle format
 .linea{
    background-color: rgb(228, 228, 240);
    height: .2rem;
-   margin-top: 0;
-   width: 120rem;
-   margin: auto;
+   margin-top: 1rem;
+     
 
 }
 
@@ -123,6 +143,25 @@ html {                      /*Se introducira al inicio del CSS para darle format
    justify-content: center;
    flex-direction: column;
    align-items: center;
-   margin: 0;
+   margin-bottom: 5rem;
    
+}
+
+.entrada1 {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.entrada2 {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.entrada3 {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
