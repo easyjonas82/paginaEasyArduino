@@ -18,18 +18,15 @@ html {                      /*Se introducira al inicio del CSS para darle format
 }
 
 .cabecera {
-    /*display: flex;*/
-    display: grid;
-    /*grid-template-columns: repeat(3, 1fr);*/
-    grid-template-columns: 20% 40% 40%;
-  
-    height: 15rem;
+   display: grid;
+   grid-template-columns: 20% 40% 40%;
+
     
 }
 
 .main{
     display: grid;
-    grid-template-columns: 20% 40% 40% ;
+    grid-template-columns: 20% 40% 40%;
 }
 
 .equipos{
@@ -39,28 +36,23 @@ html {                      /*Se introducira al inicio del CSS para darle format
 
 
 .logo{
-    /*display: flex;*/
-    /*width: 50rem;
-    justify-content: end;*/
-    /*background-color: var(--grisclaro);*/
-    padding: 2rem;
-    background-color: #75757527;
+    background-color: #efeded;
+    
+    
     
 }
 
+.logo__imagen{
+    margin-left: 2rem;
+    max-width: 46rem;
+    min-height: 10rem;
+    padding-top: 1rem;
+}
+
 .titulo{
-    /*display: flex;*/
-    /*width: 120rem;
-    font-size: 1.5rem;
-    color: gray;
-    align-items: center;
-    justify-content: end;
-    margin-right: 20rem;
-    margin-top: 2rem;*/
-    /*background-color: var(--secundario);*/
-    padding-top: 6rem;
-    font-size: 1.5rem;
-    background-color: #75757527;
+    background-color: #efeded;
+    
+    
 }
 
 .cabecera_equipo{
